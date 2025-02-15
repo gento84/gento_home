@@ -1,22 +1,23 @@
 
+@font-face {
+  font-family: "SF Mono";
+  src: url("sf-mono/SFMonoMedium.otf")  format('opentype');
+}
+@font-face {
+  font-family: "SF Mono Bold";
+  font-weight: bold;
+  src: url("sf-mono/SFMonoMedium.otf")  format('opentype');
+}
+
 body {
-  font-family: "SF Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: "SF Mono";
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   background-color: black;
 }
 
-h1 { 
-  color:azure;
-}
-
-h2 {
-  color:azure;
-}
-
-
 #navigation-nav ul li {
-  font-family: "SF Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: "SF Mono";
   font-style: normal;
   font-weight: 400;
   color: lightgray;
@@ -31,7 +32,7 @@ h2 {
 }
 
   #navigation-home ul li {
-      font-family: "SF Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+      font-family: "SF Mono";
       font-style: normal;
       font-weight: 400;
       color: lightgray;
@@ -46,7 +47,7 @@ h2 {
   }
 
 .navigation-item{
-  font-family: "SF Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: "SF Mono";
   font-style: normal;
   font-weight: 400;
   color: lightgray;
@@ -59,7 +60,7 @@ h2 {
 }
 
 .title {
-  font-family: "SF Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: "SF Mono Bold";
   font-style: normal;
   font-weight: bolder;
   color: whitesmoke;
@@ -71,7 +72,7 @@ h2 {
 }
 
 .subtitle {
-  font-family: "SF Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: "SF Mono Bold";
   font-style: normal;
   font-weight: bolder;
   color: lightgray;
@@ -83,7 +84,7 @@ h2 {
 }
 
 .text {
-  font-family: "SF Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: "SF Mono";
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -97,7 +98,7 @@ h2 {
 }
 
 .footer{
-  font-family: "SF Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: "SF Mono";
   font-style: normal;
   color: lightgray;
   font-size: 1rem;
@@ -108,7 +109,7 @@ h2 {
 }
 
 a {
-  font-family: "SF Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: "SF Mono";
   font-style: normal;
   text-decoration: none; 
   color: lightgray;
