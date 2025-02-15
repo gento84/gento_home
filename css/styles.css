@@ -16,6 +16,102 @@ body {
   background-color: #231B1B;
 }
 
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+.mrx {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  }
+  .navbar .menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  }
+  .navbar .menu li {
+  display: inline-block;
+
+
+  }
+  .navbar .menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  }
+
+
+
+
+  .navbar .menu li a:hover {
+  background-color: #575757;
+  }
+
+  .hamburger {
+      display: none;
+      font-size: 30px;
+      color: white;
+      padding: 14px 20px;
+      cursor: pointer;
+      }
+
+      #menu-toggle {
+      display: none;
+      }
+
+      @media screen and (max-width: 600px) {
+          .navbar .menu {
+          display: none;
+          width: 100%;
+          }
+          .navbar .menu li {
+          display: block;
+          text-align: left;
+          }
+          #menu-toggle:checked + .hamburger + .menu {
+          display: block;
+          }
+          .hamburger {
+          display: block;
+          }
+       }
+
+/*
 #navigation-nav ul li {
   font-family: "SF Mono";
   font-style: normal;
@@ -58,7 +154,7 @@ body {
   text-align: center;
   text-decoration: none;
 }
-
+*/
 .title {
   font-family: "SF Mono Bold";
   font-style: normal;
