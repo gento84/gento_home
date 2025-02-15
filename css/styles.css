@@ -5,8 +5,8 @@
 }
 @font-face {
   font-family: "SF Mono Bold";
-  font-weight: bold;
-  src: url("sf-mono/SFMonoMedium.otf")  format('opentype');
+/*  font-weight: bold; */
+  src: url("sf-mono/SFMonoBold.otf")  format('opentype');
 }
 
 body {
