@@ -1,7 +1,9 @@
 
 body {
-  background-color: black; 
-  text-align: center;
+  font-family: "SF Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  background-color: black;
 }
 
 h1 { 
@@ -10,4 +12,104 @@ h1 {
 
 h2 {
   color:azure;
+}
+
+
+#navigation-nav ul li {
+  font-family: "SF Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-style: normal;
+  font-weight: 400;
+  color: lightgray;
+  width: 100px;
+  height: 30px;
+  left: 5px;
+  text-decoration: none;
+  list-style:none;
+  margin-right:1%;
+  position:relative;
+  float:right;
+}
+
+  #navigation-home ul li {
+      font-family: "SF Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+      font-style: normal;
+      font-weight: 400;
+      color: lightgray;
+      width: 100px;
+      height: 30px;
+      right: 5px;
+      text-decoration: none;
+      margin-left: 0;
+      position:relative;
+      float:left;
+      list-style:none;
+  }
+
+.navigation-item{
+  font-family: "SF Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-style: normal;
+  font-weight: 400;
+  color: lightgray;
+  position: relative;
+  width: 100px;
+  height: 30px;
+  right: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.title {
+  font-family: "SF Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-style: normal;
+  font-weight: bolder;
+  color: whitesmoke;
+  font-size: 5rem;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitle {
+  font-family: "SF Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-style: normal;
+  font-weight: bolder;
+  color: lightgray;
+  font-size: 3rem;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-family: "SF Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  color: lightgray;
+  font-size: 2.4rem;
+
+}
+
+.footer{
+  font-family: "SF Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-style: normal;
+  color: lightgray;
+  font-size: 1rem;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  font-family: "SF Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-style: normal;
+  text-decoration: none; 
+  color: lightgray;
 }
