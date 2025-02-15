@@ -13,7 +13,7 @@ body {
   font-family: "SF Mono";
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
-  background-color: black;
+  background-color: #231B1B;
 }
 
 #navigation-nav ul li {
