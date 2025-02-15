@@ -20,7 +20,7 @@ body {
   font-family: "SF Mono";
   font-style: normal;
   font-weight: 400;
-  color: lightgray;
+  color: #d3d3d3;
   width: 100px;
   height: 30px;
   left: 5px;
@@ -97,6 +97,19 @@ body {
 
 }
 
+.icone {
+  height: 40px;
+}
+
+
+
+a {
+  font-family: "SF Mono";
+  font-style: normal;
+  text-decoration: none; 
+  color: lightgray;
+}
+
 .footer{
   font-family: "SF Mono";
   font-style: normal;
@@ -106,11 +119,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-a {
-  font-family: "SF Mono";
-  font-style: normal;
-  text-decoration: none; 
-  color: lightgray;
 }
