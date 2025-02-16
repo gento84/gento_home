@@ -96,10 +96,16 @@ ul.note {
   font-family: "SF Mono"; /* Stesso font del resto del sito */
   font-size: 2rem; /* Dimensione del font */
   color: lightgray; 
+  display: flex;
+  justify-content: left;
+  align-items: left;
 }
 
 .contatti li {
   margin-bottom: 10px; /* Spazio tra gli elementi della lista */
+  display: flex;
+  justify-content: left;
+  align-items: left;
 }
 
 .title {
