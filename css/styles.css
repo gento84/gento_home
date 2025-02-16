@@ -91,19 +91,21 @@ ul.note {
 .contatti {
   margin-top: 15px;
   list-style-type: none; /* Rimuove i punti elenco */
-  padding-left: 20px; /* Rientro di 10 pixel a sinistra */
+  padding-left: 20px; /* Rientro di 20 pixel a sinistra */
   text-align: left; /* Allinea il testo a sinistra */
   font-family: "SF Mono"; /* Stesso font del resto del sito */
   font-size: 2rem; /* Dimensione del font */
-  color: lightgray; 
-  justify-content: left;
-  align-items: left;
+  color: lightgray;
+  margin: 0 auto; /* Centra il contenitore orizzontalmente */
+  max-width: 600px; /* Limita la larghezza del contenitore */
 }
 
 .contatti li {
   margin-bottom: 10px; /* Spazio tra gli elementi della lista */
-  margin-left: 20px;
+  margin-left: 10px; /* Rientro a sinistra di 10 pixel */
+  text-align: left; /* Allinea il testo a sinistra */
 }
+
 
 .title {
   font-family: "SF Mono Bold";
