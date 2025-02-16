@@ -104,8 +104,8 @@ ul.note {
 .contatti li {
   margin-bottom: 10px; /* Spazio tra gli elementi della lista */
   display: flex;
-  justify-content: left;
-  align-items: left;
+ /* justify-content: left;
+  align-items: left;*/
 }
 
 .title {
