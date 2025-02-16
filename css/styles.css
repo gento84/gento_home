@@ -21,8 +21,8 @@ body {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   overflow: hidden;
 
 }
@@ -49,8 +49,8 @@ li a {
   }
   .navbar .menu {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 
   }
   .navbar .menu li {
@@ -77,10 +77,12 @@ li a {
   font-weight: bolder;
   color: whitesmoke;
   font-size: 5rem;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .subtitle {
@@ -89,25 +91,42 @@ li a {
   font-weight: bolder;
   color: lightgray;
   font-size: 3rem;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
-
+.subtitle2 {
+  font-family: "SF Mono bold";
+  font-style: normal;
+  font-weight: normal;
+  color: lightgray;
+  font-size: 1.8rem;
+  /*line-height: 1.5;*/
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 0px;
+}
 .text {
+  margin-bottom: 0px;
+  margin-top: 0px;
   font-family: "SF Mono";
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
+  text-align: justify;
   font-weight: 400;
   color: lightgray;
-  font-size: 2.4rem;
+  font-size: 2rem;
 
 }
+
 
 .icone {
   height: 40px;
@@ -131,4 +150,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
 }
