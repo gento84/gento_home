@@ -90,7 +90,7 @@ ul.note {
 
 .contatti {
   list-style-type: none;
-  padding: 50px;
+  padding-left: 10px;
   font-family: "SF Mono";
   font-style: normal;
   font-weight: normal;
@@ -101,18 +101,11 @@ ul.note {
   margin-bottom: 0px;
 }
 ul.contatti {
-    margin-top: 0; /* Rimuove il margine superiore della lista */
+    margin-top: 10; /* Rimuove il margine superiore della lista */
     padding-top: 0; 
-}
-.contatti li {
-  margin-bottom: 5px; /* Aumenta lo spazio tra gli elementi della lista */
+    text-align: left;
 }
 
-.contatti li u {
-  text-decoration: underline;
-  text-decoration-color: lightgray; /* Colore della sottolineatura */
-  text-decoration-thickness: 2px;  /* Spessore della sottolineatura */
-}
 
 .title {
   font-family: "SF Mono Bold";
