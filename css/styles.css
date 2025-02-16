@@ -89,25 +89,18 @@ ul.note {
 }
 
 .contatti {
-  list-style-type: none;
-  padding-left: 10px;
-  font-family: "SF Mono";
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1.5;
-  color: lightgray;
-  font-size: 2rem;
-  text-align: justify;
-  margin-bottom: 0px;
+  list-style-type: none; /* Rimuove i punti elenco */
+  padding-left: 20px; /* Rientro di 10 pixel a sinistra */
+  text-align: left; /* Allinea il testo a sinistra */
+  font-family: "SF Mono"; /* Stesso font del resto del sito */
+  font-size: 1.5rem; /* Dimensione del font */
+  color: lightgray; 
 }
-ul.contatti {
-    margin-top: 10; /* Rimuove il margine superiore della lista */
-    padding-top: 20; 
-    text-align: left;
-}
+
 .contatti li {
-  text-align: left;
+  margin-bottom: 10px; /* Spazio tra gli elementi della lista */
 }
+
 .title {
   font-family: "SF Mono Bold";
   font-style: normal;
