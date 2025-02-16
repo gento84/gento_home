@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="preload" lang="it-IT">
   <head>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="../../css/styles.css">
   </head>
 
 
@@ -28,9 +28,33 @@
       </nav>
     </header>
 
-        <h1 class="title">Libri</h1>
-        <h2 class="subtitle">Questa pagina contiene poche righe di riflessione sui migliori e peggiori libri che ho letto</h2>
-		<p class="text">A presto per i primi contenuti.</p>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Cerca nei libri..." onkeyup="searchBooks()">
+    </div>
+    <ul class="libri-list" id="libri-list">
+      <li>
+        <img src="path/to/copertina-libro1.jpg" alt="Copertina del Libro 1" class="copertina-libro">
+        <strong>Titolo del Libro 1</strong><br>
+        <em>Autore:</em> Nome Autore 1<br>
+        <em>ISIN:</em> ISIN del Libro 1<br>
+        Una breve descrizione del libro. È un viaggio tra le pagine che racconta una storia indimenticabile.
+      </li>
+      <li>
+        <img src="path/to/copertina-libro2.jpg" alt="Copertina del Libro 2" class="copertina-libro">
+        <strong>Titolo del Libro 2</strong><br>
+        <em>Autore:</em> Nome Autore 2<br>
+        <em>ISIN:</em> ISIN del Libro 2<br>
+        Un'altra lettura affascinante che ti terrà incollato fino all'ultima pagina.
+      </li>
+      <li>
+        <img src="path/to/copertina-libro3.jpg" alt="Copertina del Libro 3" class="copertina-libro">
+        <strong>Titolo del Libro 3</strong><br>
+        <em>Autore:</em> Nome Autore 3<br>
+        <em>ISIN:</em> ISIN del Libro 3<br>
+        Questo libro è una perla rara che ogni appassionato di lettura dovrebbe scoprire.
+      </li>
+    </ul>
+    
 
 
   <footer class="footer">   
