@@ -105,8 +105,9 @@ ul.contatti {
     padding-top: 0; 
     text-align: left;
 }
-
-
+.contatti li {
+  text-align: left;
+}
 .title {
   font-family: "SF Mono Bold";
   font-style: normal;
