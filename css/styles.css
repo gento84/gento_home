@@ -88,13 +88,7 @@ ul.note {
   text-decoration-thickness: 2px;  /* Spessore della sottolineatura */
 }
 
-.contatti-container {
-  text-align: left; /* Allinea il contenitore a sinistra */
-  margin: 0 auto; /* Centra il contenitore orizzontalmente */
-  width: 100%; /* Imposta la larghezza al 100% del contenitore padre */
-  max-width: 600px; /* Limita la larghezza massima del contenitore */
-  padding-left: 10px; /* Rientro di 10 pixel a sinistra */
-}
+
 
 .contatti {
   margin-top: 15px;
