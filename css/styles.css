@@ -1,12 +1,12 @@
 
 @font-face {
   font-family: "SF Mono";
-  src: url("sf-mono/SFMonoMedium.otf")  format('opentype');
+  src: url("sf-mono/SFMonoMedium.otf") format('opentype');
 }
+
 @font-face {
   font-family: "SF Mono Bold";
-/*  font-weight: bold; */
-  src: url("sf-mono/SFMonoBold.otf")  format('opentype');
+  src: url("sf-mono/SFMonoBold.otf") format('opentype');
 }
 
 body {
@@ -21,13 +21,12 @@ body {
 
 ul {
   list-style-type: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
-
 }
 
-li {
+.msx {
   float: left;
 }
 
@@ -42,42 +41,58 @@ li a {
   text-decoration: none;
 }
 
-
-
 .navbar {
   overflow: hidden;
-  }
-  .navbar .menu {
+}
+
+.navbar .menu {
   list-style-type: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+}
 
-  }
-  .navbar .menu li {
+.navbar .menu li {
   display: inline-block;
+}
 
-
-  }
-  .navbar .menu li a {
+.navbar .menu li a {
   display: block;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
-  }
+}
 
+.note {
+  list-style-type: none;
+  padding: 50px;
+  font-family: "SF Mono";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  color: lightgray;
+  font-size: 2rem;
+  text-align: justify;
+  margin-bottom: 0px;
+}
+ul.note {
+    margin-top: 0; /* Rimuove il margine superiore della lista */
+    padding-top: 0; 
+}
+.note li {
+  margin-bottom: 5px; /* Aumenta lo spazio tra gli elementi della lista */
+}
 
-
-
-
-
-
+.note li u {
+  text-decoration: underline;
+  text-decoration-color: lightgray; /* Colore della sottolineatura */
+  text-decoration-thickness: 2px;  /* Spessore della sottolineatura */
+}
 .title {
   font-family: "SF Mono Bold";
   font-style: normal;
   font-weight: bolder;
   color: whitesmoke;
   font-size: 5rem;
-  /*line-height: 1.5;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,25 +106,23 @@ li a {
   font-weight: bolder;
   color: lightgray;
   font-size: 3rem;
-  /*line-height: 1.5;*/
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 0px;
   margin-top: 0px;
 }
+
 .subtitle2 {
-  font-family: "SF Mono bold";
+  font-family: "SF Mono Bold";
   font-style: normal;
   font-weight: normal;
   color: lightgray;
   font-size: 1.8rem;
-  /*line-height: 1.5;*/
   display: flex;
-  justify-content: left;
-  align-items: left;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
+
 .text {
   margin-bottom: 0px;
   margin-top: 0px;
@@ -124,24 +137,20 @@ li a {
   font-weight: 400;
   color: lightgray;
   font-size: 2rem;
-
 }
-
 
 .icone {
   height: 40px;
 }
 
-
-
 a {
   font-family: "SF Mono";
   font-style: normal;
-  text-decoration: none; 
+  text-decoration: none;
   color: lightgray;
 }
 
-.footer{
+.footer {
   font-family: "SF Mono";
   font-style: normal;
   color: lightgray;
@@ -151,5 +160,12 @@ a {
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
+
+@media (max-width: 600px) {
+  body {
+    margin: 15px;
+  }
+}
+
