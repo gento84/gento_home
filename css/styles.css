@@ -93,20 +93,14 @@ ul.note {
 .contatti {
   margin-top: 15px;
   list-style-type: none; /* Rimuove i punti elenco */
-  padding-left: 0; /* Rimuove padding a sinistra */
   font-family: "SF Mono"; /* Stesso font del resto del sito */
   font-size: 2rem; /* Dimensione del font */
   color: lightgray;
-  margin: 0; /* Rimuove i margini */
-  text-align: left; /* Allinea il testo a sinistra */
-  display: block; /* Imposta la visualizzazione a blocco */
 }
 
 .contatti li {
+  margin-top: 20px;
   margin-bottom: 10px; /* Spazio tra gli elementi della lista */
-  padding-left: 20px; /* Rientro aggiuntivo di 20 pixel per ogni elemento della lista */
-  width: calc(100% - 20px); /* Imposta la larghezza al 100% meno il rientro */
-  box-sizing: border-box; /* Includi padding e bordi nella larghezza totale */
 }
 
 
