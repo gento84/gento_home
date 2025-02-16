@@ -108,7 +108,7 @@ ul.note {
   margin-bottom: 10px; /* Spazio tra gli elementi della lista */
   padding-left: 10px; /* Rientro aggiuntivo di 10 pixel per ogni elemento della lista */
   text-align: left; /* Allinea il testo a sinistra */
-
+}
 
 .title {
   font-family: "SF Mono Bold";
