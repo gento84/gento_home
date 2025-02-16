@@ -102,7 +102,7 @@ ul.note {
 }
 ul.contatti {
     margin-top: 10; /* Rimuove il margine superiore della lista */
-    padding-top: 0; 
+    padding-top: 20; 
     text-align: left;
 }
 .contatti li {
