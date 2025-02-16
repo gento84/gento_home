@@ -91,12 +91,14 @@ ul.note {
 .contatti-container {
   text-align: left; /* Allinea il contenitore a sinistra */
   margin: 0 auto; /* Centra il contenitore orizzontalmente */
+  width: 100%; /* Imposta la larghezza al 100% del contenitore padre */
+  max-width: 600px; /* Limita la larghezza massima del contenitore */
 }
 
 .contatti {
   margin-top: 15px;
   list-style-type: none; /* Rimuove i punti elenco */
-  padding-left: 20px; /* Rientro di 20 pixel a sinistra */
+  padding-left: 10px; /* Rientro di 10 pixel a sinistra */
   font-family: "SF Mono"; /* Stesso font del resto del sito */
   font-size: 2rem; /* Dimensione del font */
   color: lightgray;
@@ -104,8 +106,8 @@ ul.note {
 
 .contatti li {
   margin-bottom: 10px; /* Spazio tra gli elementi della lista */
-}
-
+  padding-left: 10px; /* Rientro aggiuntivo di 10 pixel per ogni elemento della lista */
+  text-align: left; /* Allinea il testo a sinistra */
 
 
 .title {
@@ -184,9 +186,4 @@ a {
   margin-top: 50px;
 }
 
-@media (max-width: 600px) {
-  body {
-    margin: 15px !important;
-  }
-}
 
