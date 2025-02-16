@@ -89,11 +89,12 @@ ul.note {
 }
 
 .contatti {
+  margin-top: 15px;
   list-style-type: none; /* Rimuove i punti elenco */
   padding-left: 20px; /* Rientro di 10 pixel a sinistra */
   text-align: left; /* Allinea il testo a sinistra */
   font-family: "SF Mono"; /* Stesso font del resto del sito */
-  font-size: 1.5rem; /* Dimensione del font */
+  font-size: 2rem; /* Dimensione del font */
   color: lightgray; 
 }
 
