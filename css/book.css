@@ -141,11 +141,11 @@
 
 .modal-content {
     display: block;
-    margin: auto;
+    margin: 100px;
     height: 80%;
     max-width: 80%; /* Assicura che l'immagine non superi l'80% dello schermo */
     max-height: 80%;
-    height: auto;
+    width: auto;
 }
 
 .close {
