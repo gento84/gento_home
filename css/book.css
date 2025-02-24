@@ -155,16 +155,13 @@
 }
 
 .modal-content {
+    margin: 15% auto; /* Centra il pop-up verticalmente */
     display: block;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: auto;
-    margin-right: auto;
-   /* width: 50%; 
-    height: 80%;*/
-    max-width: 80%; /* Assicura che l'immagine non superi l'80% dello schermo */
-    max-height: 80%
+    width: 80%; /* Larghezza del contenuto */
+    max-width: 600px; /* Larghezza massima del contenuto */
 }
+
+
 
 .close {
     position: fixed; 
@@ -177,17 +174,4 @@
 }
 
 
-/*
 
-.modal-content {
-    display: block;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    justify-content: center; /* Centra orizzontalmente 
-    align-items: center; 
-    height: 80%;
-    max-width: 80%; /* Assicura che l'immagine non superi l'80% dello schermo 
-    max-height: 80%;
-    width: auto;
-}
-*/
