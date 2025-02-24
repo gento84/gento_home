@@ -152,7 +152,9 @@
 
 .modal-content {
     margin: 15% auto; /* Centra il pop-up verticalmente */
-    display: block;
+    display: flex; /*block*/
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; 
     height: 80%; /* Larghezza del contenuto */
     max-width: 600px; /* Larghezza massima del contenuto */
 }
