@@ -1,20 +1,65 @@
+
+@font-face {
+    font-family: "SF Mono";
+    src: url("sf-mono/SFMonoMedium.otf") format('opentype');
+  }
+  
+  @font-face {
+    font-family: "SF Mono Bold";
+    src: url("sf-mono/SFMonoBold.otf") format('opentype');
+  }
+
+  body {
+    font-family: "SF Mono";
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    background-color: #231B1B;
+    max-width: 1024px;
+    margin: 10px auto;
+    text-align: center;
+  }  
+
 .search-container {
     text-align: center; /* Allinea la barra di ricerca al centro */
-    margin-bottom: 20px; /* Spazio inferiore */
+    margin: 30px; /* Spazio inferiore */
+    background-color: #231B1B;
   }
   
   #search-input {
     width: 80%; /* Larghezza della barra di ricerca */
     padding: 10px; /* Padding interno */
     font-size: 1.5rem; /* Dimensione del font */
-    border: 1px solid #ccc; /* Bordo */
+    border: 1px solid lightgray; /* Bordo */
     border-radius: 5px; /* Angoli arrotondati */
+    font-family: "SF Mono";
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    font-family: "SF Mono";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: justify;
+    font-weight: 400;
+    color: lightgray;
   }
   
   .libri-list {
     list-style-type: none; /* Rimuove i punti elenco */
     padding-left: 0; /* Rimuove padding a sinistra */
     margin: 0; /* Rimuove i margini */
+    font-family: "SF Mono";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: justify;
+    font-weight: 400;
+    color: lightgray;
   }
   
   .libri-list li {
