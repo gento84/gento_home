@@ -148,13 +148,13 @@
     overflow: hidden; /* Evita lo scroll */
     background-color: rgb(0, 0, 0); /* Colore di sfondo */
     background-color: rgba(0, 0, 0, 0.8); /* Colore di sfondo con opacità */
-}
-
-.modal-content {
-    margin: 15% auto; /* Centra il pop-up verticalmente */
-    display: flex; /*block*/
     justify-content: center; /* Centra orizzontalmente */
     align-items: center; 
+}
+.modal.show {
+    display: flex; /* Mostra il pop-up */
+}
+.modal-content {
     height: 80%; /* Larghezza del contenuto */
     max-width: 600px; /* Larghezza massima del contenuto */
     overflow: hidden; /* Evita lo scroll all'interno del contenuto */
