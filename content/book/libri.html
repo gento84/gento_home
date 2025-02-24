@@ -38,8 +38,10 @@
 
     <div class="search-container">
       <input type="text" id="search-input" placeholder="Cerca tra i libri..." onkeyup="searchBooks()">
-      <button onclick="sortList('title')">Ordina per Titolo</button>
-      <button onclick="sortList('author')">Ordina per Autore</button>
+    </div>
+      <div class="search-buttons">
+        <button onclick="sortList('title')">Ordina per Titolo</button>
+        <button onclick="sortList('author')">Ordina per Autore</button>
     </div>
 
     <ul class="libri-list" id="libri-list">
@@ -73,6 +75,14 @@
           <strong>Storia perfetta dell'errore</strong>
           <em>Roberto Mercadini</em>
           <p>Una storia divertente ma profonda di come a volte gli errori siano opportunità inaspettate di crescita e di scoperta, rivelando l'importanza di abbracciare le imperfezioni come parte del nostro percorso.</p>
+        </div>
+      </li>
+      <li>
+        <img src="../../images/libri/CentomilaGavetteDiGhiaccio.jpg" class="copertina-libro" onclick="openModal(this)">
+        <div>
+          <strong>Centomila gavette di ghiaccio</strong>
+          <em>Giulio Bedeschi</em>
+        <p>Questi uomini, nudi davanti al dolore, non avevano più nulla se non la loro dignità e il ricordo dei giorni lontani di pace.<br />Il Comando Supremo dell’Armata Rossa, dichiaro’ che: “Soltanto il Corpo d'Armata Alpino Italiano deve considerarsi imbattuto in terra di Russia” </p>
         </div>
       </li>
     </ul>
