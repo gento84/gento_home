@@ -155,6 +155,8 @@
     display: flex; /* Mostra il pop-up */
 }
 .modal-content {
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; 
     height: 80%; /* Larghezza del contenuto */
     max-width: 600px; /* Larghezza massima del contenuto */
     overflow: hidden; /* Evita lo scroll all'interno del contenuto */
