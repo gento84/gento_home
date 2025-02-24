@@ -143,7 +143,9 @@
     display: block;
     margin: auto;
     width: 80%; /* Occupa l'80% dello schermo disponibile */
+    height: 80%;
     max-width: 80%; /* Assicura che l'immagine non superi l'80% dello schermo */
+    max-height: 80%;
     height: auto;
 }
 
