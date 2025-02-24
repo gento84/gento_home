@@ -94,20 +94,27 @@ background-color: #383838; /* Colore di sfondo quando il mouse passa sopra */
     line-height: 1.5;
     text-align: left; /* Allinea il testo a sinistra */
     color: lightgray; /* Colore del testo */
-}
-
-.idee li div {
+  }
+  
+  .idee li {
+    border-bottom: 1px solid #555; /* Aggiunge bordo sotto ogni elemento */
+    padding-bottom: 10px; /* Aggiunge padding sotto ogni elemento */
+    margin-bottom: 10px; /* Aggiunge margine sotto ogni elemento */
+  }
+  
+  .idee li div {
     display: flex; /* Usa flexbox per allineare il contenuto */
     flex-direction: column; /* Colonna per il testo */
-}
-
-.idee li strong {
+  }
+  
+  .idee li strong {
     font-size: 1.2rem; /* Dimensione del font per il titolo */
     margin-bottom: 5px; /* Spazio sotto il titolo */
     color: lightgray; /* Colore del testo */
-}
-
-.idee li p {
+  }
+  
+  .idee li p {
     margin: 0; /* Rimuove i margini */
     color: lightgray; /* Colore del testo */
-}
+  }
+  
