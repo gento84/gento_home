@@ -31,7 +31,6 @@
     width: 80%; /* Larghezza della barra di ricerca */
     padding: 10px; /* Padding interno */
     font-size: 1.5rem; /* Dimensione del font */
-    border: 1px solid lightgray; /* Bordo */
     border-radius: 5px; /* Angoli arrotondati */
     background-color: #231B1B !important; /* Colore di sfondo con priorità */
     font-family: "SF Mono";
