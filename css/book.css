@@ -136,10 +136,6 @@
     color: lightgray; /* Colore del testo */
 }
 
-
-/* Stile per il pop-up */
-
-
 /* Stile per il pop-up */
 .modal {
     display: none; /* Nasconde il pop-up di default */
@@ -157,7 +153,7 @@
 .modal-content {
     margin: 15% auto; /* Centra il pop-up verticalmente */
     display: block;
-    width: 80%; /* Larghezza del contenuto */
+    height: 80%; /* Larghezza del contenuto */
     max-width: 600px; /* Larghezza massima del contenuto */
 }
 
