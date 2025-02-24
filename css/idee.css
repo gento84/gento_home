@@ -79,6 +79,9 @@
     transition: border 0.3s ease; /* Aggiunge una transizione liscia per il bordo */
 }
 
+.nota a {
+    text-align: left; /* Allinea il testo a sinistra */
+    display: block; /* Assicura che l'elemento a prenda tutta la larghezza disponibile */
 
 .nota li div {
     display: flex; /* Usa flexbox per allineare il contenuto */
