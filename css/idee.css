@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: "SF Mono";
+    src: url("sf-mono/SFMonoMedium.otf") format('opentype');
+  }
+  
+  @font-face {
+    font-family: "SF Mono Bold";
+    src: url("sf-mono/SFMonoBold.otf") format('opentype');
+  }
+
+  body {
+    font-family: "SF Mono";
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    background-color: #231B1B;
+    max-width: 1024px;
+    margin: 10px auto;
+    text-align: center;
+  }  
+  .subtitle {
+    margin: 20px;
+  }
+
+  .idea {
+    font-family: "SF Mono";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    align-items: left;
+    text-align: justify;
+    font-weight: 400;
+    color: lightgray;
+  }
+
+.search-container {
+        text-align: center; /* Allinea la barra di ricerca al centro */
+        margin: 15px; /* Spazio inferiore */
+        background-color: #231B1B !important; /* Colore di sfondo con priorità */
+  }
+  
+  #search-input {
+    width: 100%; /*Larghezza della barra di ricerca */
+    padding: 10px; /* Padding interno */
+    font-size: 1.5rem; /* Dimensione del font */
+    border: 2px solid lightgray; /* Bordo unificato */
+    border-radius: 5px; /* Angoli arrotondati */
+    font-family: "SF Mono";
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    background-color: #231B1B !important; /* Colore di sfondo con priorità */
+    color: lightgray;
+}
