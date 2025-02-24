@@ -181,33 +181,3 @@ a {
 }
 
 
-.search-container {
-  text-align: center; /* Allinea la barra di ricerca al centro */
-  margin-bottom: 20px; /* Spazio inferiore */
-}
-
-#search-input {
-  width: 80%; /* Larghezza della barra di ricerca */
-  padding: 10px; /* Padding interno */
-  font-size: 1.5rem; /* Dimensione del font */
-  border: 1px solid #ccc; /* Bordo */
-  border-radius: 5px; /* Angoli arrotondati */
-}
-
-.libri-list {
-  list-style-type: none; /* Rimuove i punti elenco */
-  padding-left: 0; /* Rimuove padding a sinistra */
-  margin: 0; /* Rimuove i margini */
-}
-
-.libri-list li {
-  margin-bottom: 20px; /* Spazio tra gli elementi della lista */
-  padding-left: 10px; /* Rientro aggiuntivo di 10 pixel per ogni elemento della lista */
-  text-align: left; /* Allinea il testo a sinistra */
-}
-
-.copertina-libro {
-  max-width: 100px; /* Dimensione massima della copertina */
-  margin-right: 10px; /* Spazio a destra della copertina */
-  float: left; /* Allinea la copertina a sinistra del testo */
-}
