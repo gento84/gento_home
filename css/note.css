@@ -22,3 +22,19 @@
     margin: 20px;
   }
 
+
+  .testo {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: "SF Mono";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: justify;
+    font-weight: 400;
+    color: lightgray;
+    font-size: 1.5rem;
+  }
