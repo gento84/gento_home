@@ -65,7 +65,7 @@
 }
 
 .nota li {
-    margin-bottom: 20px; /* Spazio tra gli elementi della lista */
+    margin-bottom: 10px; /* Spazio tra gli elementi della lista */
     padding-left: 0; /* Rimuove il rientro aggiuntivo */
     text-align: left; /* Allinea il testo a sinistra */
     display: flex; /* Usa flexbox per allineare il contenuto */
@@ -76,6 +76,10 @@
 .nota a {
     text-align: left; /* Allinea il testo a sinistra */
     display: block; /* Assicura che l'elemento a prenda tutta la larghezza disponibile */
+    padding-left: 0;
+    font-size: 1.4rem; /* Dimensione del font per il titolo */
+    margin-bottom: 5px; /* Spazio sotto il titolo */
+    color: lightgray; /* Colore del testo */
 }
 
 .nota li div {
@@ -83,11 +87,6 @@
     flex-direction: column; /* Colonna per il testo */
 }
 
-.nota li strong {
-    font-size: 1.2rem; /* Dimensione del font per il titolo */
-    margin-bottom: 5px; /* Spazio sotto il titolo */
-    color: lightgray; /* Colore del testo */
-}
 
 
 .nota li p {
