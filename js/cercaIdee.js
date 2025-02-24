@@ -1,17 +1,20 @@
 function searchIdee() {
-    // Get the search input value
+    // Ottieni il valore dell'input di ricerca
     let input = document.getElementById('search-input').value.toLowerCase();
     
-    // Get all list items
+    // Ottieni tutti gli elementi della lista
     let items = document.querySelectorAll('.idee li');
     
     items.forEach(item => {
-      // Check if the item's text content includes the search input value
-      if (item.textContent.toLowerCase().includes(input)) {
-        // Show the item if it matches the search input
+      // Ottieni il titolo dell'elemento (testo dell'elemento <a>)
+      let title = item.querySelector('strong a').textContent.toLowerCase();
+      
+      // Controlla se il titolo include il valore dell'input di ricerca
+      if (title.includes(input)) {
+        // Mostra l'elemento se corrisponde alla ricerca
         item.style.display = '';
       } else {
-        // Hide the item if it doesn't match the search input
+        // Nascondi l'elemento se non corrisponde alla ricerca
         item.style.display = 'none';
       }
     });
