@@ -24,10 +24,8 @@
 
 .search-container {
         text-align: center; /* Allinea la barra di ricerca al centro */
-        margin: 30px; /* Spazio inferiore */
+        margin: 15px; /* Spazio inferiore */
         background-color: #231B1B !important; /* Colore di sfondo con priorità */
-       /* border: 2px solid lightgray; /* Bordo colorato */
-       /* border-radius: 10px; */
   }
   
   #search-input {
@@ -46,11 +44,9 @@
     font-weight: 400;
     background-color: #231B1B !important; /* Colore di sfondo con priorità */
     color: lightgray;
-    /*box-sizing: border-box;  Assicura che padding e bordo siano inclusi nella larghezza totale */
 }
 
 .search-buttons {
-    margin-top: 10px; /* Spazio tra il campo di ricerca e i pulsanti */
     margin-bottom: 20px;
     text-align: center; /* Centra i pulsanti */
 }
@@ -131,6 +127,9 @@
 
 
 /* Stile per il pop-up */
+
+
+/* Stile per il pop-up */
 .modal {
     display: none; /* Nasconde il pop-up di default */
     position: fixed; /* Posizione fissa */
@@ -140,22 +139,15 @@
     width: 100%;
     height: 100%;
     overflow: auto; /* Abilita lo scorrimento se necessario */
-    background-color: #231B1B; /* Colore di sfondo */
-    background-color: rgba(35, 27, 27, 0.8); /* Colore di sfondo con opacità */
-    justify-content: center; /* Centra orizzontalmente */
-    align-items: center; 
+    background-color: rgb(0, 0, 0); /* Colore di sfondo */
+    background-color: rgba(0, 0, 0, 0.8); /* Colore di sfondo con opacità */
 }
 
 .modal-content {
+    margin: 15% auto; /* Centra il pop-up verticalmente */
     display: block;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    justify-content: center; /* Centra orizzontalmente */
-    align-items: center; 
-    height: 80%;
     max-width: 80%; /* Assicura che l'immagine non superi l'80% dello schermo */
     max-height: 80%;
-    width: auto;
 }
 
 .close {
@@ -167,3 +159,19 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+
+/*
+
+.modal-content {
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    justify-content: center; /* Centra orizzontalmente 
+    align-items: center; 
+    height: 80%;
+    max-width: 80%; /* Assicura che l'immagine non superi l'80% dello schermo 
+    max-height: 80%;
+    width: auto;
+}
+*/
