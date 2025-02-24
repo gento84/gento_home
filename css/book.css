@@ -159,8 +159,8 @@
 }
 
 .modal-content {
-    width: 80%; /* Larghezza del contenuto */
-    max-width: 600px; /* Larghezza massima del contenuto */
+    width: 80%; /* Occupa l'80% della larghezza */
+    height: 80%; /* Occupa l'80% dell'altezza */
     background: white; /* Colore di sfondo del contenuto */
     padding: 20px; /* Spaziatura interna */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ombra del contenuto */
