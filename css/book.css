@@ -144,6 +144,7 @@
 }
 
 .modal-content {
+    display: block;
     margin: 15% auto; /* Centra il pop-up verticalmente */
     display: block;
     max-width: 80%; /* Assicura che l'immagine non superi l'80% dello schermo */
