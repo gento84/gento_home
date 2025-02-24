@@ -147,7 +147,7 @@
     width: 100%;
     height: 100%;
     overflow: hidden; /* Evita lo scroll */
-    background-color: rgb(0, 0, 0); /* Colore di sfondo */
+    background-color: #231B1B;/* Colore di sfondo */
     background-color: rgba(0, 0, 0, 0.8); /* Colore di sfondo con opacità */
     justify-content: center; /* Centra orizzontalmente */
     align-items: center; /* Centra verticalmente */
@@ -158,9 +158,9 @@
 }
 
 .modal-content {
-    width: 80%; /* Larghezza del contenuto */
+    height: 80%; /* Larghezza del contenuto */
     max-width: 600px; /* Larghezza massima del contenuto */
-    background: white; /* Colore di sfondo del contenuto */
+    background: lightgray;  /* Colore di sfondo del contenuto */
     padding: 20px; /* Spaziatura interna */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ombra del contenuto */
 
