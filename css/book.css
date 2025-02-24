@@ -149,7 +149,6 @@
     overflow: hidden; /* Evita lo scroll */
     background-color: rgb(0, 0, 0); /* Colore di sfondo */
     background-color: rgba(0, 0, 0, 0.8); /* Colore di sfondo con opacità */
-    display: flex;
     justify-content: center; /* Centra orizzontalmente */
     align-items: center; /* Centra verticalmente */
 }
