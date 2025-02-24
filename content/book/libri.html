@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="../../css/styles.css">
     <link rel="stylesheet" href="../../css/book.css">
     <script src="../../js/cerca.js" defer></script>
+    <script src="../../js/popup.js" defer></script>
   </head>
 
 
@@ -45,7 +46,7 @@
         <img src="../../images/libri/libro1.jpg" alt="Copertina del Libro 1" class="copertina-libro">
         <div>
           <strong>Titolo del Libro 1</strong>
-          <em>Autore: mario /em>
+          <em>Autore: mario </em>
           <p>Una breve descrizione del libro. È un viaggio tra le pagine che racconta una storia indimenticabile.</p>
         </div>
       </li>
@@ -75,7 +76,11 @@
       </li>
     </ul>
     
-
+    <!-- Pop-up Modal -->
+    <div id="myModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="img01">
+    </div>
 
   <footer class="footer">   
     <p>Made with ❤️ by <a href="mailto:info@gento.it">Gento</a></p>
