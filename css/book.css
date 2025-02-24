@@ -145,7 +145,8 @@
 
 .modal-content {
     display: block;
-    margin: 100px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     height: 80%;
     max-width: 80%; /* Assicura che l'immagine non superi l'80% dello schermo */
     max-height: 80%;
