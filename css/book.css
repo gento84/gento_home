@@ -19,7 +19,7 @@
     text-align: center;
   }  
   .subtitle {
-    margin-top: 20px;
+    margin: 20px;
   }
 
 .search-container {
@@ -31,7 +31,7 @@
   }
   
   #search-input {
-   /*  width: 80%; Larghezza della barra di ricerca */
+    width: 100%; /*Larghezza della barra di ricerca */
     padding: 10px; /* Padding interno */
     font-size: 1.5rem; /* Dimensione del font */
     border: 2px solid lightgray; /* Bordo unificato */
@@ -42,14 +42,12 @@
     font-style: normal;
     font-weight: normal;
     line-height: 1.5;
-    /* text-align: justify;*/
+    text-align: left;
     font-weight: 400;
     background-color: #231B1B !important; /* Colore di sfondo con priorità */
     color: lightgray;
     /*box-sizing: border-box;  Assicura che padding e bordo siano inclusi nella larghezza totale */
 }
-
-  
 
 
 .libri-list {
@@ -75,4 +73,23 @@
     max-width: 100px; /* Dimensione massima della copertina */
     margin-right: 10px; /* Spazio a destra della copertina */
     flex-shrink: 0; /* Impedisce che l'immagine si riduca */
+}
+
+.libri-list li div {
+    display: flex; /* Usa flexbox per allineare il contenuto */
+    flex-direction: column; /* Colonna per il testo */
+}
+
+.libri-list li strong {
+    font-size: 1.2rem; /* Dimensione del font per il titolo */
+    margin-bottom: 5px; /* Spazio sotto il titolo */
+}
+
+.libri-list li em {
+    font-size: 1rem; /* Dimensione del font per l'autore */
+    margin-bottom: 5px; /* Spazio sotto l'autore */
+}
+
+.libri-list li p {
+    margin: 0; /* Rimuove i margini */
 }
