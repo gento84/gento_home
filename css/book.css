@@ -50,7 +50,8 @@
 }
 
 .search-buttons {
-    margin-top: 20px; /* Spazio tra il campo di ricerca e i pulsanti */
+    margin-top: 10px; /* Spazio tra il campo di ricerca e i pulsanti */
+    margin-bottom: 10px;
     text-align: center; /* Centra i pulsanti */
 }
 
@@ -141,11 +142,13 @@
     overflow: auto; /* Abilita lo scorrimento se necessario */
     background-color: #231B1B; /* Colore di sfondo */
     background-color: rgba(35, 27, 27, 0.8); /* Colore di sfondo con opacità */
+    display: flex; /* Usa flexbox per centrare il contenuto */
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; 
 }
 
 .modal-content {
     display: block;
-    align-items: center;
     margin-top: 80px;
     margin-bottom: 80px;
     height: 80%;
