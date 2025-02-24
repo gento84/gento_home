@@ -52,19 +52,37 @@
     color: lightgray;
 }
 
+.idee {
+    list-style-type: none; /* Rimuove i punti elenco */
+    padding-left: 0; /* Rimuove padding a sinistra */
+    margin: 0; /* Rimuove i margini */
+    font-family: "SF Mono"; /* Famiglia di font */
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left; /* Allinea il testo a sinistra */
+    color: lightgray; /* Colore del testo */
+}
+
 .idee li {
-    list-style-type: none;
-    margin: 20px 0;
-  }
-  
-  .idee strong {
-    display: block;
-    text-align: left;
-    font-size: 1.2em;
-    margin-bottom: 5px;
-  }
-  
-  .idee .idea {
-    text-align: left;
-  }
-  
+    margin-bottom: 20px; /* Spazio tra gli elementi della lista */
+    padding-left: 0; /* Rimuove il rientro aggiuntivo */
+    text-align: left; /* Allinea il testo a sinistra */
+    display: block; /* Modifica la visualizzazione a blocco */
+}
+
+.idee li div {
+    display: block; /* Modifica la visualizzazione a blocco */
+}
+
+.idee li strong {
+    font-size: 1.2rem; /* Dimensione del font per il titolo */
+    margin-bottom: 5px; /* Spazio sotto il titolo */
+    color: lightgray; /* Colore del testo */
+}
+
+
+.idee li p {
+    margin: 0; /* Rimuove i margini */
+    color: lightgray; /* Colore del testo */
+}
