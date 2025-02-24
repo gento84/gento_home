@@ -145,16 +145,16 @@
 
 .modal-content {
     display: block;
-    margin: 15% auto; /* Centra il pop-up verticalmente */
-    display: block;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 80%;
     max-width: 80%; /* Assicura che l'immagine non superi l'80% dello schermo */
-    max-height: 80%;
 }
 
 .close {
     position: fixed; 
-    top: 10px;
-    right: 25px;
+    top: 30px;
+    right: 30px;
     color: lightgray; 
     font-size: 35px;
     font-weight: bold;
