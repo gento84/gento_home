@@ -22,15 +22,10 @@
     margin: 20px;
   }
 
-
-
   .text {
     margin-bottom: 15px;
     margin-top: 15px;
   }
-
-  
-
 
   .idea {
     font-family: "SF Mono";
@@ -88,9 +83,10 @@
     display: block; /* Assicura che l'elemento a prenda tutta la larghezza disponibile */
     padding-left: 0;
     font-size: 1.4rem; /* Dimensione del font per il titolo */
-    margin-bottom: 5px; /* Spazio sotto il titolo */
+    margin-bottom: 0px; /* Spazio sotto il titolo */
     color: lightgray; /* Colore del testo */
     margin-bottom: 0px;
+    padding: 0;
 }
 
 .nota li div {
@@ -102,6 +98,7 @@
 .nota li p {
     margin-top: 0px;
     margin-bottom: 0px;
+    padding: 0;
     margin: 0; /* Rimuove i margini */
     color: lightgray; /* Colore del testo */
     font-size: 1.2rem;
