@@ -163,7 +163,7 @@
     background: lightgray;  /* Colore di sfondo del contenuto */
     padding: 20px; /* Spaziatura interna */
     box-shadow: 0 4px 8px rgba(35, 27, 27, 0.8); /* Ombra del contenuto */
-    border-top: 20px solid #231B1B;  
+    border-top: 40px solid #231B1B;  
 }
 
 

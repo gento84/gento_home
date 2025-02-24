@@ -70,7 +70,7 @@ li a {
   font-weight: normal;
   line-height: 1.5;
   color: lightgray;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: justify;
   margin-bottom: 0px;
 }
@@ -94,7 +94,7 @@ ul.note {
   margin-top: 15px;
   list-style-type: none; /* Rimuove i punti elenco */
   font-family: "SF Mono"; /* Stesso font del resto del sito */
-  font-size: 2rem; /* Dimensione del font */
+  font-size: 1.5rem; /* Dimensione del font */
   color: lightgray;
 }
 
@@ -153,7 +153,7 @@ ul.note {
   text-align: justify;
   font-weight: 400;
   color: lightgray;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .icone {
