@@ -31,24 +31,26 @@
     width: 80%; /* Larghezza della barra di ricerca */
     padding: 10px; /* Padding interno */
     font-size: 1.5rem; /* Dimensione del font */
+    border: 2px solid lightgray; /* Bordo unificato */
     border-radius: 5px; /* Angoli arrotondati */
-    background-color: #231B1B !important; /* Colore di sfondo con priorità */
     font-family: "SF Mono";
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
-    font-family: "SF Mono";
     font-style: normal;
     font-weight: normal;
     line-height: 1.5;
-    display: flex;
-    justify-content: left;
-    align-items: left;
     text-align: justify;
     font-weight: 400;
     color: lightgray;
-  }
+    box-sizing: border-box; /* Assicura che padding e bordo siano inclusi nella larghezza totale */
+}
+
   
-  .libri-list {
+
+
+
+
+.libri-list {
     list-style-type: none; /* Rimuove i punti elenco */
     padding-left: 0; /* Rimuove padding a sinistra */
     margin: 0; /* Rimuove i margini */
@@ -56,22 +58,21 @@
     font-style: normal;
     font-weight: normal;
     line-height: 1.5;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    text-align: justify;
-    font-weight: 400;
-    color: lightgray;
-  }
-  
-  .libri-list li {
-    margin-bottom: 20px; /* Spazio tra gli elementi della lista */
-    padding-left: 10px; /* Rientro aggiuntivo di 10 pixel per ogni elemento della lista */
     text-align: left; /* Allinea il testo a sinistra */
-  }
-  
-  .copertina-libro {
+    width: 100%;
+    display: block; /* Assicura che la lista sia visualizzata come blocco */
+}
+
+.libri-list li {
+    margin-bottom: 20px; /* Spazio tra gli elementi della lista */
+    padding-left: 0; /* Rimuove il rientro aggiuntivo */
+    text-align: left; /* Allinea il testo a sinistra */
+    display: block; /* Assicura che gli elementi della lista siano visualizzati come blocchi */
+    width: 100%;
+}
+
+.copertina-libro {
     max-width: 100px; /* Dimensione massima della copertina */
     margin-right: 10px; /* Spazio a destra della copertina */
     float: left; /* Allinea la copertina a sinistra del testo */
-  }
+}
