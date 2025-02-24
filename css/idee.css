@@ -31,3 +31,20 @@
     font-weight: 400;
     color: lightgray;
   }
+  #search-input {
+    width: 100%; /*Larghezza della barra di ricerca */
+    padding: 10px; /* Padding interno */
+    font-size: 1.5rem; /* Dimensione del font */
+    border: 2px solid lightgray; /* Bordo unificato */
+    border-radius: 5px; /* Angoli arrotondati */
+    font-family: "SF Mono";
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    background-color: #231B1B !important; /* Colore di sfondo con priorità */
+    color: lightgray;
+}
