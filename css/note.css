@@ -22,18 +22,3 @@
     margin: 20px;
   }
 
-  .text {
-    margin-bottom: 15px;
-    margin-top: 15px;
-  }
-
-  .idea {
-    font-family: "SF Mono";
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1.5;
-    align-items: left;
-    text-align: justify;
-    font-weight: 400;
-    color: lightgray;
-  }
