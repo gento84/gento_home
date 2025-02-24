@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="../../css/book.css">
     <script src="../../js/cerca.js" defer></script>
     <script src="../../js/popup.js" defer></script>
+    <script src="../../js/ordina.js" defer></script>
   </head>
 
 
@@ -37,9 +38,9 @@
 
     <div class="search-container">
       <input type="text" id="search-input" placeholder="Cerca tra i libri..." onkeyup="searchBooks()">
+      <button onclick="sortList('title')">Ordina per Titolo</button>
+      <button onclick="sortList('author')">Ordina per Autore</button>
     </div>
-
-
 
     <ul class="libri-list" id="libri-list">
       <li>

@@ -26,16 +26,16 @@
         text-align: center; /* Allinea la barra di ricerca al centro */
         margin: 30px; /* Spazio inferiore */
         background-color: #231B1B !important; /* Colore di sfondo con priorità */
-        border: 2px solid lightgray; /* Bordo colorato */
-        border-radius: 10px; 
+       /* border: 2px solid lightgray; /* Bordo colorato */
+       /* border-radius: 10px; */
   }
   
   #search-input {
     width: 100%; /*Larghezza della barra di ricerca */
     padding: 10px; /* Padding interno */
     font-size: 1.5rem; /* Dimensione del font */
-    /*border: 2px solid lightgray;  Bordo unificato */
-    /*border-radius: 5px; /* Angoli arrotondati */
+    border: 2px solid lightgray; /* Bordo unificato */
+    border-radius: 5px; /* Angoli arrotondati */
     font-family: "SF Mono";
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
@@ -48,6 +48,23 @@
     color: lightgray;
     /*box-sizing: border-box;  Assicura che padding e bordo siano inclusi nella larghezza totale */
 }
+
+
+.search-buttons {
+    margin-top: 10px; /* Spazio tra il campo di ricerca e i pulsanti */
+}
+
+.search-buttons button {
+    background-color: #231B1B; /* Sfondo come da pagina */
+    border: 2px solid lightgray; /* Bordo colorato */
+    border-radius: 5px; /* Angoli arrotondati */
+    padding: 10px 20px; /* Padding interno */
+    font-family: "SF Mono";
+    color: lightgray; /* Colore del testo */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transizione per il cambio di colore di sfondo */
+}
+
 
 .libri-list {
     list-style-type: none; /* Rimuove i punti elenco */
@@ -73,7 +90,13 @@
     max-width: 100px; /* Dimensione massima della copertina */
     margin-right: 10px; /* Spazio a destra della copertina */
     flex-shrink: 0; /* Impedisce che l'immagine si riduca */
+    transition: border 0.3s ease; /* Aggiunge una transizione liscia per il bordo */
 }
+
+.copertina-libro:hover {
+    border: 2px solid lightgray; /* Bordo colorato quando il mouse passa sopra */
+}
+
 
 .libri-list li div {
     display: flex; /* Usa flexbox per allineare il contenuto */
@@ -108,8 +131,8 @@
     width: 100%;
     height: 100%;
     overflow: auto; /* Abilita lo scorrimento se necessario */
-    background-color: rgb(0, 0, 0); /* Colore di sfondo */
-    background-color: rgba(0, 0, 0, 0.8); /* Colore di sfondo con opacità */
+    background-color: #231B1B; /* Colore di sfondo */
+    background-color: rgba(35, 27, 27, 0.8); /* Colore di sfondo con opacità */
 }
 
 .modal-content {
