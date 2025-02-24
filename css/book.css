@@ -18,6 +18,9 @@
     margin: 10px auto;
     text-align: center;
   }  
+  .subtitle {
+    margin-top: 20px;
+  }
 
 .search-container {
         text-align: center; /* Allinea la barra di ricerca al centro */
@@ -28,7 +31,7 @@
   }
   
   #search-input {
-    width: 80%; /* Larghezza della barra di ricerca */
+   /*  width: 80%; Larghezza della barra di ricerca */
     padding: 10px; /* Padding interno */
     font-size: 1.5rem; /* Dimensione del font */
     border: 2px solid lightgray; /* Bordo unificato */
@@ -39,15 +42,14 @@
     font-style: normal;
     font-weight: normal;
     line-height: 1.5;
-    text-align: justify;
+    /* text-align: justify;*/
     font-weight: 400;
+    background-color: #231B1B !important; /* Colore di sfondo con priorità */
     color: lightgray;
-    box-sizing: border-box; /* Assicura che padding e bordo siano inclusi nella larghezza totale */
+    /*box-sizing: border-box;  Assicura che padding e bordo siano inclusi nella larghezza totale */
 }
 
   
-
-
 
 
 .libri-list {
@@ -59,20 +61,18 @@
     font-weight: normal;
     line-height: 1.5;
     text-align: left; /* Allinea il testo a sinistra */
-    width: 100%;
-    display: block; /* Assicura che la lista sia visualizzata come blocco */
 }
 
 .libri-list li {
     margin-bottom: 20px; /* Spazio tra gli elementi della lista */
     padding-left: 0; /* Rimuove il rientro aggiuntivo */
     text-align: left; /* Allinea il testo a sinistra */
-    display: block; /* Assicura che gli elementi della lista siano visualizzati come blocchi */
-    width: 100%;
+    display: flex; /* Usa flexbox per allineare il contenuto */
+    align-items: flex-start; /* Allinea gli elementi al centro in verticale */
 }
 
 .copertina-libro {
     max-width: 100px; /* Dimensione massima della copertina */
     margin-right: 10px; /* Spazio a destra della copertina */
-    float: left; /* Allinea la copertina a sinistra del testo */
+    flex-shrink: 0; /* Impedisce che l'immagine si riduca */
 }
