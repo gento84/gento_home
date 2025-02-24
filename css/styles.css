@@ -113,7 +113,7 @@ ul.note {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-top: 20px;
 }
 
@@ -137,7 +137,6 @@ ul.note {
   color: lightgray;
   font-size: 1.8rem;
   display: flex;
-  margin-bottom: 5px;
 }
 
 .text {
