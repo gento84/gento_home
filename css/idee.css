@@ -97,14 +97,8 @@ background-color: #383838; /* Colore di sfondo quando il mouse passa sopra */
   }
   
   .idee li {
-    border-bottom: 1px solid #555; /* Aggiunge bordo sotto ogni elemento */
     padding-bottom: 10px; /* Aggiunge padding sotto ogni elemento */
     margin-bottom: 10px; /* Aggiunge margine sotto ogni elemento */
-  }
-  
-  .idee li div {
-    display: flex; /* Usa flexbox per allineare il contenuto */
-    flex-direction: column; /* Colonna per il testo */
   }
   
   .idee li strong {
