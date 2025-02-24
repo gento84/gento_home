@@ -20,9 +20,11 @@
   }  
 
 .search-container {
-    text-align: center; /* Allinea la barra di ricerca al centro */
-    margin: 30px; /* Spazio inferiore */
-    background-color: #231B1B;
+        text-align: center; /* Allinea la barra di ricerca al centro */
+        margin: 30px; /* Spazio inferiore */
+        background-color: #231B1B !important; /* Colore di sfondo con priorità */
+        border: 2px solid lightgray; /* Bordo colorato */
+        border-radius: 10px; 
   }
   
   #search-input {
