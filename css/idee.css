@@ -52,7 +52,7 @@
     color: lightgray;
 }
 
-.idee {
+.nota{
     list-style-type: none; /* Rimuove i punti elenco */
     padding-left: 0; /* Rimuove padding a sinistra */
     margin: 0; /* Rimuove i margini */
@@ -64,26 +64,40 @@
     color: lightgray; /* Colore del testo */
 }
 
-.idee li {
+.nota li {
     margin-bottom: 20px; /* Spazio tra gli elementi della lista */
     padding-left: 0; /* Rimuove il rientro aggiuntivo */
     text-align: left; /* Allinea il testo a sinistra */
-    display: block; /* Modifica la visualizzazione a blocco */
+    display: flex; /* Usa flexbox per allineare il contenuto */
+    align-items: flex-start; /* Allinea gli elementi al centro in verticale */
 }
 
-.idee li div {
-    display: block; /* Modifica la visualizzazione a blocco */
+.copertina-libro {
+    max-width: 100px; /* Dimensione massima della copertina */
+    margin-right: 10px; /* Spazio a destra della copertina */
+    flex-shrink: 0; /* Impedisce che l'immagine si riduca */
+    transition: border 0.3s ease; /* Aggiunge una transizione liscia per il bordo */
 }
 
-.idee li strong {
-    font-size: 1.6rem; /* Dimensione del font per il titolo */
+
+.nota li div {
+    display: flex; /* Usa flexbox per allineare il contenuto */
+    flex-direction: column; /* Colonna per il testo */
+}
+
+.nota li strong {
+    font-size: 1.2rem; /* Dimensione del font per il titolo */
     margin-bottom: 5px; /* Spazio sotto il titolo */
     color: lightgray; /* Colore del testo */
-    text-align: left;
 }
 
+.nota li em {
+    font-size: 1rem; /* Dimensione del font per l'autore */
+    margin-bottom: 5px; /* Spazio sotto l'autore */
+    color: lightgray; /* Colore del testo */
+}
 
-.idee li p {
+.nota li p {
     margin: 0; /* Rimuove i margini */
     color: lightgray; /* Colore del testo */
 }
