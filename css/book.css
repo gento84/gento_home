@@ -22,6 +22,17 @@
     margin: 20px;
   }
 
+  .book {
+    font-family: "SF Mono";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    align-items: left;
+    text-align: justify;
+    font-weight: 400;
+    color: lightgray;
+  }
+
 .search-container {
         text-align: center; /* Allinea la barra di ricerca al centro */
         margin: 15px; /* Spazio inferiore */
