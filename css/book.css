@@ -162,8 +162,8 @@
     max-width: 600px; /* Larghezza massima del contenuto */
     background: lightgray;  /* Colore di sfondo del contenuto */
     padding: 20px; /* Spaziatura interna */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ombra del contenuto */
-
+    box-shadow: 0 4px 8px rgba(35, 27, 27, 0.8); /* Ombra del contenuto */
+    border-top: 5px solid #00ffd5;  
 }
 
 
