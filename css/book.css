@@ -52,6 +52,7 @@
 
 .search-buttons {
     margin-top: 10px; /* Spazio tra il campo di ricerca e i pulsanti */
+    text-align: center; /* Centra i pulsanti */
 }
 
 .search-buttons button {
@@ -63,7 +64,14 @@
     color: lightgray; /* Colore del testo */
     cursor: pointer;
     transition: background-color 0.3s ease; /* Transizione per il cambio di colore di sfondo */
+    font-size: 1.2rem; /* Dimensione del font */
+    margin-top: 20px; /* Spazio superiore */
 }
+
+.search-buttons button:hover {
+    background-color: #383838; /* Colore di sfondo quando il mouse passa sopra */
+}
+
 
 
 .libri-list {
