@@ -109,7 +109,7 @@ background-color: #383838; /* Colore di sfondo quando il mouse passa sopra */
   
   .idee li strong {
     font-size: 1.2rem; /* Dimensione del font per il titolo */
-    margin-bottom: 5px; /* Spazio sotto il titolo */
+    margin-bottom: 0apx; /* Spazio sotto il titolo */
     color: lightgray; /* Colore del testo */
     text-align: left; /* Allinea il testo a sinistra */
   }
